@@ -15,7 +15,7 @@ Use `dumper.ps1` to dump the encrypted save file to plain JSON.
 
 ### Example
 
-```
+```powershell
 .\dumper.ps1 -saveFile ./ForgottonAnne-Save.new.json -dumpFile ./ForgottonAnne-Save.dump.json
 ```
 
@@ -35,11 +35,11 @@ Default is `./ForgottonAnne-Save.dump.json`.
 
 ## Compiler
 
-Use `Compiler.ps1` to encrypt dump back to binary readable by the game.
+Use `compiler.ps1` to encrypt dump back to binary readable by the game.
 
 ### Example
 
-```
+```powershell
 .\compiler.ps1 -dumpFile ./ForgottonAnne-Save.dump.json -saveFile ./ForgottonAnne-Save.new.json
 ```
 
